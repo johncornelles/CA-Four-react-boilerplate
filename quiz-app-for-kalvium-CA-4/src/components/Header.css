@@ -1,0 +1,23 @@
+.logo-div{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.light{
+    color: white;
+}
+
+.logo-div img{
+    height: 20vh;
+}
+
+.ui-btn {
+    background-color: #42EC1A;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: block;
+    padding: 10px 30px;
+    font-size: 24px;
+}

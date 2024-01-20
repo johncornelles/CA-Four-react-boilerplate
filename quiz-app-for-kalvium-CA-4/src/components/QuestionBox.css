@@ -1,0 +1,39 @@
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 70px);
+    gap: 25px;
+}
+.grid-button{
+    color: #42EC1A;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+ .dark-btn{
+    background-color: black;
+ }
+
+ .light-btn{
+    background-color: white;
+ }
+
+.quiz-holder{
+    background-color: #42EC1A;
+    padding: 50px;
+    width: 70vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.qno{
+    font-size: 20px;
+}
+.question{
+    font-size: 24px;
+}

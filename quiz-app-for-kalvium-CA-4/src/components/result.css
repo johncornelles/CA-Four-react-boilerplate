@@ -1,0 +1,33 @@
+.result-div {
+    background-color: #42EC1A;
+    text-align: center;
+    padding: 20px;
+    width: 60vw;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.restart{
+    padding: 10px 20px;
+    font-size: 24px;
+    outline: none;
+    border: none;
+}
+.dark-mode .restart {
+    color: #42EC1A;
+    background-color: black;
+}
+
+.light-mode .restart {
+    color: #42EC1A;
+    background-color: white;
+}
+.result-title, .score, .percent{
+    font-size: 36px;
+    font-weight:550;
+}

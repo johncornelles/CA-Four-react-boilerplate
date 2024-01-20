@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:wght@400;700&family=Jura:wght@500&family=Poppins:ital,wght@0,300;1,500&display=swap');
+
+*{
+    font-family: 'B612 Mono', monospace;
+    font-family: 'Jura', sans-serif;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: black;
+}
+button{
+  cursor: pointer;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+}

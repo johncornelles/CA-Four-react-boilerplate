@@ -1,0 +1,33 @@
+.dark-mode {
+    color: black;
+}
+
+.light-mode {
+    color: white;
+}
+
+.highlights {
+    background-color: #42EC1A;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
+    padding: 15px 30px;
+    font-size: 24px;
+}
+
+.highlight-div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight-light{
+    color: white;
+}
+
+.highlight-dark{
+    color: black;
+}
